@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <section class="reg">
+    <div class="reg__left">
+        <h2 class="reg__left-title">Teen IT Day</h2>
+        <p class="reg__left-txt">Приходь на Teen IT Day, прокачайся в IT командою та створи свій перший командний продукт.</p>
+        <ul class="reg__left-list">
+            <li class="reg__left-list-item">Дата: 23 вересня 2027</li>
+            <li class="reg__left-list-item">Час: з 10:00 до 18:00</li>
+            <li class="reg__left-list-item">Офлайн</li>
+        </ul>
+    </div>
+
+    <form action="" class="form">
+        <label>
+            Ім'я
+            <input type="text" class="" required placeholder="Ім'я">
+        </label>
+
+        <label>
+            пошта
+            <input type="email" class="" required placeholder="name@example.com">
+        </label>
+
+        <label>
+            Оберіть спеціальність
+            <select name="id" id="" required>
+                <option value="">Обери варіант</option>
+                <option value="">Frontend</option>
+                <option value="">UI/UX дизайн</option>
+                <option value="">QA тестувальник</option>
+                <option value="">Project manager</option>
+            </select>
+        </label>
+
+        <label>
+            <input type="checkbox" required>
+            <span>Я погоджуюсь з правилами участі</span>
+        </label>
+
+        <button class="" type="submit">
+            Відправити
+        </button>
+    </form>
+</section>
+<section class="team">
+    <div class="container-team container">
+        <h2 class="team__title">Хто створює сайт?</h2>
+        <ul class="team__list">
+            <li>
+                <article class="team__list-card card" data-aos="fade-up" data-aos-delay="100">
+                    <img class="card__img" src="" alt="">
+                    <h3 class="card__title">UI/UX Дизайнер</h3>
+                    <p class="card__text">Проектує структуру сторінки та вигляд інтерфейсу.</p>
+                    <details class="card__details">
+                        <summary class="card__summary">Що передає фронтенд розробнику?</summary>
+                        <ul class="card__details-list">
+                            <li>Макет десктоп і мобайл</li>
+                            <li>Дизайн-система</li>
+                            <li>Стани кнопок і форм</li>
+                        </ul>
+                    </details>
+                </article>
+            </li>
+            <li>
+                <article class="team__list-card card" data-aos="fade-up" data-aos-delay="200">
+                    <img class="card__img" src="" alt="">
+                    <h3 class="card__title">Frontend-розробник</h3>
+                    <p class="card__text">Перетворює дизайн на інтерактивну сторінку, якою зручно користуватися.</p>
+                    <details class="card__details">
+                        <summary class="card__summary">За що відповідає frontend-розробник?</summary>
+                        <ul class="card__details-list">
+                            <li>Верстка сторінок для різних пристроїв</li>
+                            <li>Інтерактивність кнопок і форм</li>
+                            <li>Відображення сайту в браузері</li>
+                        </ul>
+                    </details>
+                </article></li>
+            <li>
+                <article class="team__list-card card" data-aos="fade-up" data-aos-delay="300">
+                    <img class="card__img" src="" alt="">
+                    <h3 class="card__title">QA-тестувальник</h3>
+                    <p class="card__text">Перевіряє сайт, знаходить помилки та допомагає зробити його зручним і надійним.</p>
+                    <details class="card__details">
+                        <summary class="card__summary">За що відповідає QA-тестувальник?</summary>
+                        <ul class="card__details-list">
+                            <li>Перевірка функцій і форм сайту</li>
+                            <li>Пошук і опис помилок</li>
+                            <li>Перевірка сайту на різних пристроях</li>
+                        </ul>
+                    </details>
+                </article></li>
+        </ul>
+    </div>
+</section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
